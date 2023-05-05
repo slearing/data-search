@@ -2,8 +2,8 @@ package com.insigma.datasearch.business.dataSource.service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.insigma.datasearch.entity.DataSource;
-import dto.DataSourceDto;
-import vo.DropdownVo;
+import com.insigma.datasearch.business.dataSource.dto.DataSourceDto;
+import com.insigma.datasearch.vo.DropdownVo;
 
 import java.util.List;
 

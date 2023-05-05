@@ -1,4 +1,4 @@
-package vo;
+package com.insigma.datasearch.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

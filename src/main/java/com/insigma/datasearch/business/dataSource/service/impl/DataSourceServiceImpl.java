@@ -10,11 +10,11 @@ import com.insigma.datasearch.entity.DataSource;
 import com.insigma.datasearch.business.dataSource.mapper.DataSourceMapper;
 import com.insigma.datasearch.utils.DataSourceUtils;
 import com.insigma.datasearch.utils.DateUtil;
-import dto.DataSourceDto;
+import com.insigma.datasearch.business.dataSource.dto.DataSourceDto;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vo.DropdownVo;
+import com.insigma.datasearch.vo.DropdownVo;
 
 import java.util.ArrayList;
 import java.util.Date;

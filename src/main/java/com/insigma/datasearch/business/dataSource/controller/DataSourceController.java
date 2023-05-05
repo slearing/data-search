@@ -10,14 +10,14 @@ import com.insigma.datasearch.business.dataSource.service.DataSourceService;
 import com.insigma.datasearch.utils.validatedGroup.Insert;
 import com.insigma.datasearch.utils.validatedGroup.Query;
 import com.insigma.datasearch.utils.validatedGroup.Update;
-import dto.DataSourceDto;
+import com.insigma.datasearch.business.dataSource.dto.DataSourceDto;
 import io.swagger.annotations.*;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import vo.DropdownVo;
+import com.insigma.datasearch.vo.DropdownVo;
 
 import java.util.List;
 

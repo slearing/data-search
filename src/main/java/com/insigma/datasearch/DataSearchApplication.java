@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.insigma.datasearch.mapper")
+@MapperScan("com.insigma.datasearch.business.*.mapper")
 public class DataSearchApplication {
 
     public static void main(String[] args) {

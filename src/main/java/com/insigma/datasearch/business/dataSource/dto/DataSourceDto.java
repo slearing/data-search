@@ -1,4 +1,4 @@
-package dto;
+package com.insigma.datasearch.business.dataSource.dto;
 
 import com.insigma.datasearch.utils.validatedGroup.Insert;
 import com.insigma.datasearch.utils.validatedGroup.Query;

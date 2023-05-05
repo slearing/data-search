@@ -3,8 +3,7 @@ package com.insigma.datasearch.utils;
 
 import com.insigma.datasearch.constant.DataSourceConstant;
 import com.insigma.datasearch.constant.DataSourceTypeEnum;
-import com.insigma.datasearch.entity.DataSource;
-import dto.DataSourceDto;
+import com.insigma.datasearch.business.dataSource.dto.DataSourceDto;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
