@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: dm.jdbc.driver.DmDriver
+    password: hy_gwygl_search
+    username: HY_GWYGL_SEARCH
+    url: jdbc:dm://localhost:5236/DAMENG
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+    knife4j:
+      enable: true
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
